@@ -22,7 +22,7 @@ export default function Home() {
         setLoading(false);
       })
       .catch((e) => {
-        console.error(e);
+        console.log("e", e);
         setLoading(false);
       });
   }, []);
